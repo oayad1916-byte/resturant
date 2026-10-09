@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "CLASSIC BURGER",
+    "price": 8.99,
+    "description": "Beef patty, lettuce, tomato, cheese, onions, special sauce",
+    "image": "/images/big_burger.png" 
+  },
+  {
+    "id": 2,
+    "name": "DOUBLE CHEESEBURGER",
+    "price": 11.99,
+    "description": "Double beef patty, double cheese, pickles, onions, special sauce",
+    "image": "/images/big_burger.png"
+  },
+  {
+    "id": 3,
+    "name": "BACON BURGER",
+    "price": 14.99,
+    "description": "Beef patty, crispy bacon, cheese, lettuce, tomato, BBQ sauce",
+    "image": "/images/burger_meal1.png"
+  },
+  {
+    "id": 4,
+    "name": "tow burger",
+    "price": 19.99,
+    "description": "Crispy chicken, spicy mayo, lettuce, pickles",
+    "image": "/images/tow_burger.png"
+  }
+]

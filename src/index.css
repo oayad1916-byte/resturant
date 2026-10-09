@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+
+:root {
+
+  /* COLORS */
+
+  --bg-main: #0D0C0C;
+  --bg-dark: #080401;
+  --bg-section: #101010;
+  --bg-card: #161515;
+  --bg-card-light: #1C1B1A;
+
+  --gold: #DBA43C;
+  --gold-light: #E0AA71;
+  --gold-dark: #9E4A0C;
+  --gold-deep: #7B5427;
+
+  --text-primary: #F5F3F0;
+  --text-white: #FFFFFF;
+  --text-secondary: #C1BCB8;
+  --text-muted: #8A8684;
+
+  --border: #2C2926;
+  --border-light: #453C32;
+
+
+  /* FONTS */
+
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-logo: "Cormorant Garamond", serif;
+
+
+  /* SHADOWS */
+
+  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.25);
+
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.45);
+
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.65);
+
+  --shadow-gold: 0 8px 25px rgba(219, 164, 60, 0.18);
+
+
+  /* GRADIENTS */
+
+  --gradient-gold: linear-gradient(
+    135deg,
+    #E0AA71,
+    #DBA43C,
+    #9E4A0C
+  );
+
+--gradient-dark: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+);
+
+
+  /* BORDER */
+
+  --border-gold: rgba(219, 164, 60, 0.45);
+
+
+  /* RADIUS */
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+
+  /* TRANSITION */
+
+  --transition-fast: 0.2s ease;
+  --transition: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+
+  /* LAYOUT */
+
+  --container-width: 1250px;
+  --section-padding: 80px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  height: 100vh;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
